@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Structure de l element config -->
+	<xs:element name="config">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="systeme" type="Systeme" use="required"/>
+				<xs:element name="individu" type="Individu" use="optional"/>
+			</xs:sequence>
+		</xs:complexType>
+		
+		<!-- Contrainte d unicite de l attribut id des elements individu -->
+		<xs:unique name="IndividuID">
+			<xs:selector xpath="individu"/>
+			<xs:field xpath="@id"/>
+		</xs:unique>
+	</xs:element>
+
+	<!-- Structure de l element <systeme> -->
+	<xs:complexType name="Systeme">
+		<xs:attribute type="One-to-ten" name="nombreIndividus" use="required"/>
+		<xs:attribute type="One-to-twenty" name="tailleInitialeLexiqueParDefaut" use="required"/>
+		<xs:attribute type="One-to-twenty" name="tailleMaximaleLexiqueParDefaut" use="required"/>
+		<xs:attribute type="xs:string" name="urlFichierGraphe" use="required"/>
+		<xs:element type="ImplementationCondition" name="implConditionEmissionParDefaut" use="required"/>
+		<xs:element type="ImplementationCondition" name="implConditionReceptionParDefaut" use="required"/>
+		<xs:element type="ImplementationCondition" name="implConditionMemorisationParDefaut" use="required"/>
+		<xs:element type="ImplementationStrategieSelection" name="implStrategieSelectionEmissionParDefaut" use="required"/>
+		<xs:element type="ImplementationStrategieSelection" name="implStrategieSelectionEliminationParDefaut" use="required"/>
+		<xs:element type="ImplentationStrategieSuccession" name="implStrategieSuccessionParDefaut" use="required"/>
+		<xs:element type="TypeCritereArret" name="typeCritereArret" use="required"/>
+		
+		<!-- Contrainte sur la tailles initiale et maximale des lexiques -->
+		<xs:assert test="@tailleInitialeLexiqueParDefaut &lt= @tailleMaximaleLexiqueParDefaut"/>
+	</xs:complexType>
+
+	<!-- Structure de l element individu -->
+	<xs:complexType name="Individu">
+		<xs:attribute type="One-to-ten" name="id" use="required"/>
+		<xs:attribute type="One-to-twenty" name="tailleInitialeLexique" use="optional"/>
+		<xs:attribute type="One-to-twenty" name="tailleMaximaleLexique" use="optional"/>
+
+		<xs:element type="ImplementationCondition" name="implConditionEmission" use="optional"/>
+		<xs:element type="ImplementationCondition" name="implConditionReception" use="optional"/>
+		<xs:element type="ImplementationCondition" name="implConditionMemorisation" use="optional"/>
+		<xs:element type="ImplementationStrategieSelection" name="implStrategieSelectionEmission" use="optional"/>
+		<xs:element type="ImplementationStrategieSelection" name="implStrategieSelectionElimination" use="optional"/>
+		<xs:element type="ImplentationStrategieSuccession" name="implStrategieSuccession" use="optional"/>
+		
+		<!-- Contrainte sur la valeur de l attribut id -->
+		<xs:assert test="@id &lt;= systeme@nombreIndividus"/>
+		
+		<!-- Contrainte sur la valeur des atttributs tailleMaximaleLexique et tailleMaximaleLexique -->
+		<xs:assert test=
+			"(not (@tailleInitialeLexique) and not(@tailleMaximaleLexique)) or 
+			(@tailleInitialeLexique and @tailleMaximaleLexique and @tailleInitialeLexique &lt;= @tailleMaximaleLexique) or
+			(@tailleInitialeLexique and (@tailleInitialeLexique &lt;= systeme@tailleMaximaleLexiqueParDefaut)) or
+			(@tailleMaximaleLexique and (@tailleMaximaleLexique &gt;= systeme@tailleInitialeLexiqueParDefaut))"
+		/>
+	</xs:complexType>
+	
+	<!-- Types utilises avec restrictions associees -->
+	<xs:simpleType name="One-to-ten">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="One-to-twenty">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="20"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="ImplementationCondition">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="CONDITION_PROBABILITE_UNIFORME"/>
+			<xs:enumeration value="CONDITION_TOUJOURS_SATISFAITE"/>
+			<xs:enumeration value="CONDITION_JAMAIS_SATISFAITE"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="ImplementationStrategieSelection">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="SELECTION_PREMIER_LEMME"/>
+			<xs:enumeration value="SELECTION_LEMME_ALEATOIRE"/>
+			<xs:enumeration value="SELECTION_LEMME_MOINS_EMIS"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="ImplentationStrategieSuccession">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="SUCCESSION_VOISIN_ALEATOIRE"/>
+			<xs:enumeration value="SUCCESSION_PREMIER_VOISIN"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="CritereArret">
+		<xs:simpleContent>
+			<xs:extension base="TypeCritereArret">
+				<xs:attribute name="objectif">
+					<xs:simpleType>
+						<xs:restriction base="xs:integer">
+							<xs:minInclusive value="1"/>
+							<xs:maxInclusive value="2000"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="TypeCritereArret">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="EVENEMENTS_DECLENCHES"/>
+			<xs:enumeration value="DATE_ATTEINTE"/>
+			<xs:enumeration value="PREMIER_LEXIQUE_PLEIN"/>
+			<xs:enumeration value="TOUS_LEXIQUES_PLEINS"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- dans les cas PREMIER_LEXIQUE_PLEIN et TOUS_LEXIQUES_PLEINS, l attribut objectif n est pas obligatoire -->
+</xs:schema>

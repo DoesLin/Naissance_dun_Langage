@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<systeme nombreIndividus="4" tailleInitialeLexiqueParDefaut="6" tailleMaximaleLexiqueParDefaut="12" urlFichierMatriceVoisinage="config/matrice.txt">
+		<implConditionEmissionParDefaut>CONDITION_TOUJOURS_SATISFAITE</implConditionEmissionParDefaut>
+		<implConditionReceptionParDefaut>CONDITION_PROBABILITE_UNIFORME</implConditionReceptionParDefaut>
+		<implConditionMemorisationParDefaut>CONDITION_PROBABILITE_UNIFORME</implConditionMemorisationParDefaut>
+		<implStrategieSelectionEmissionParDefaut>SELECTION_LEMME_ALEATOIRE</implStrategieSelectionEmissionParDefaut>
+		<implStrategieSelectionEliminationParDefaut>SELECTION_LEMME_ALEATOIRE</implStrategieSelectionEliminationParDefaut>
+		<implStrategieSuccessionParDefaut>SUCCESSION_PREMIER_VOISIN</implStrategieSuccessionParDefaut>
+		<typeCritereArret>TOUS_LEXIQUES_PLEINS</typeCritereArret>
+	</systeme>
+	
+	<individu id="1" tailleInitialeLexique="2" tailleMaximaleLexique="5">
+		<implConditionEmission>CONDITION_TOUJOURS_SATISFAITE</implConditionEmission>
+		<implConditionReception>CONDITION_TOUJOURS_SATISFAITE</implConditionReception>
+		<implConditionMemorisation>CONDITION_TOUJOURS_SATISFAITE</implConditionMemorisation>
+	</individu>
+	<individu id="1" tailleInitialeLexique="8"></individu>
+</config>

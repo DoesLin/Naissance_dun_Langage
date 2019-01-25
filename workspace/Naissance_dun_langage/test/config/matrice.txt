@@ -1,0 +1,15 @@
+# Matrice de voisinage
+#
+# Si M[i][j] > 0, l'individu d'ID i a comme voisin l'individu d'ID j avec un delais de valeur M[i][j]
+# Sinon, l'individu d'ID i n'a pas l'individu j comme voisin
+#
+# Notes:
+#	- La matrice doit carree de taille N, avec N egal a l'attribut 'nombreIndividus' du fichier de config systeme; 
+#	- Un individu doit avoir au moins un voisin, i.e une ligne ne peut pas etre nulle;
+#	- Un individu ne peut etre son propre voisin, i.e. M[i][i] = 0 pour tout i;
+#	- Un delais ne peut pas etre negatif, i.e M[i][j] >= 0 pour tout i.
+#
+0 0 1 2
+1 0 1 1
+0 1 0 0
+2 1 0 0

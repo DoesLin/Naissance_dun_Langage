@@ -1,0 +1,87 @@
+/* Onglets IHM */
+
+.medium-tab-pane {
+	-fx-tab-min-width: 136;
+	-fx-tab-max-width: 136;
+}
+
+.big-tab-pane {
+	-fx-tab-min-width: 220;
+	-fx-tab-max-width: 220;
+}
+
+.tab .tab-label { 
+	-fx-alignment: CENTER;
+}
+
+.table-row-cell {
+	-fx-cell-size: 28px;
+}
+
+/* Diagrammes */
+
+#diagrammeEvolutionLexique StackPane {
+	-fx-cursor: hand;
+}
+
+#diagrammeEvolutionOccurrences StackPane {
+	-fx-cursor: hand;
+}
+
+/* Labels texte evenements */
+
+Text.gras 			{-fx-font-weight: bold;}
+Text.emission 		{-fx-fill: CORAL;}
+Text.reception 		{-fx-fill: CORNFLOWERBLUE;}
+Text.memorisation 	{-fx-fill: LIMEGREEN;}
+Text.elimination 	{-fx-fill: BURLYWOOD;}
+Text.echec 			{-fx-fill: GREY;}
+
+/* Graphe systeme */
+
+#grapheSysteme Circle.sommet {
+	-fx-cursor: hand;
+}
+
+#grapheSysteme Circle.sommet.focus {
+	-fx-stroke: rgb(64,64,64);
+	-fx-stroke-width: 4;
+}
+
+#grapheSysteme Circle.systeme { 
+	-fx-stroke-width: 1;
+	-fx-stroke: rgb(64,64,64);
+	-fx-fill: WHITE;
+}
+
+#grapheSysteme Text.delais {
+	-fx-font-weight: bold;
+}
+
+#grapheSysteme Rectangle.delais-bg {
+	-fx-fill: rgb(242, 242, 242);
+}
+
+/* Couleurs individus */
+
+Rectangle.individu-a { -fx-stroke: CHART_COLOR_1;}
+Rectangle.individu-b { -fx-stroke: CHART_COLOR_2;}
+Rectangle.individu-c { -fx-stroke: CHART_COLOR_3;}
+Rectangle.individu-d { -fx-stroke: CHART_COLOR_4;}
+Rectangle.individu-e { -fx-stroke: CHART_COLOR_5;}
+Rectangle.individu-f { -fx-stroke: CHART_COLOR_6;}
+Rectangle.individu-g { -fx-stroke: CHART_COLOR_7;}
+Rectangle.individu-h { -fx-stroke: CHART_COLOR_8;}
+Rectangle.individu-i { -fx-stroke: CHART_COLOR_9;} 
+Rectangle.individu-j { -fx-stroke: CHART_COLOR_10;}
+
+Circle.individu-a, Rectangle.individu-a, Text.individu-a { -fx-fill: CHART_COLOR_1;}
+Circle.individu-b, Rectangle.individu-b, Text.individu-b { -fx-fill: CHART_COLOR_2;}
+Circle.individu-c, Rectangle.individu-c, Text.individu-c { -fx-fill: CHART_COLOR_3;}
+Circle.individu-d, Rectangle.individu-d, Text.individu-d { -fx-fill: CHART_COLOR_4;}
+Circle.individu-e, Rectangle.individu-e, Text.individu-e { -fx-fill: CHART_COLOR_5;}
+Circle.individu-f, Rectangle.individu-f, Text.individu-f { -fx-fill: CHART_COLOR_6;}
+Circle.individu-g, Rectangle.individu-g, Text.individu-g { -fx-fill: CHART_COLOR_7;}
+Circle.individu-h, Rectangle.individu-h, Text.individu-h { -fx-fill: CHART_COLOR_8;}
+Circle.individu-i, Rectangle.individu-i, Text.individu-i { -fx-fill: CHART_COLOR_9;}
+Circle.individu-j, Rectangle.individu-j, Text.individu-j { -fx-fill: CHART_COLOR_10;}

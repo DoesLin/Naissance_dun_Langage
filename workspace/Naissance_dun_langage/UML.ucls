@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="simulation.systeme.temps.Horloge" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/temps/Horloge.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="934" y="169"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="simulation.systeme.ConfigurationSysteme" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/ConfigurationSysteme.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="68" width="194" x="1023" y="90"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="simulation.systeme.lexique.Lexique" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/lexique/Lexique.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="556" y="689"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" 
+    name="simulation.systeme.evenement.executeur.ExecuteurEvenementsSysteme.EvenementInitial" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/evenement/executeur/ExecuteurEvenementsSysteme.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2022" y="262"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="simulation.ihm.Controleur" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/ihm/Controleur.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="229" x="369" y="200"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="simulation.systeme.evenement.executeur.ExecuteurEvenementsSysteme.EvenementFinal" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/evenement/executeur/ExecuteurEvenementsSysteme.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1904" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="simulation.systeme.lexique.TableOccurrencesLemmes" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/lexique/TableOccurrencesLemmes.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="372" y="688"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="simulation.ihm.portee.PorteeIndividu" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/ihm/portee/PorteeIndividu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="55" width="137" x="603" y="382"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="simulation.systeme.Voisin" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/Voisin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="54" width="109" x="798" y="331"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="simulation.systeme.Individu" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/Individu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="62" width="176" x="673" y="543"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="simulation.systeme.temps.Date" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/temps/Date.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="780" y="173"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="simulation.ihm.portee.Portee" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/ihm/portee/Portee.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="58" width="142" x="412" y="335"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" 
+    name="simulation.systeme.evenement.executeur.ExecuteurEvenementsIndividu.EvenementEmission" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/evenement/executeur/ExecuteurEvenementsIndividu.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1600" y="560"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="simulation.systeme.evenement.executeur.ExecuteurEvenementsSysteme" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/evenement/executeur/ExecuteurEvenementsSysteme.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="207" x="1557" y="273"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="simulation.systeme.CritereArret" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/CritereArret.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="54" width="113" x="1337" y="28"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="simulation.Simulation" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/Simulation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="53" width="232" x="368" y="76"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" 
+    name="simulation.systeme.evenement.executeur.ExecuteurEvenementsIndividu.EvenementReception" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/evenement/executeur/ExecuteurEvenementsIndividu.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1740" y="617"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="simulation.systeme.strategie.modele.StrategieSuccession" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/strategie/modele/StrategieSuccession.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="176" x="1309" y="594"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="simulation.systeme.Systeme" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/Systeme.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="67" width="224" x="1197" y="210"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="simulation.systeme.evenement.executeur.ExecuteurEvenementsIndividu" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/evenement/executeur/ExecuteurEvenementsIndividu.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="207" x="1557" y="343"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="simulation.systeme.condition.modele.Condition" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/condition/modele/Condition.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="181" x="878" y="597"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="simulation.systeme.Echeancier" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/Echeancier.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1651" y="215"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="simulation.systeme.lexique.OccurrenceLemme" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/lexique/OccurrenceLemme.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="366" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" 
+    name="simulation.systeme.evenement.executeur.ExecuteurEvenementsIndividu.EvenementMemorisation" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/evenement/executeur/ExecuteurEvenementsIndividu.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1923" y="683"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="simulation.systeme.evenement.modele.Evenement" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/evenement/modele/Evenement.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="58" width="220" x="1813" y="373"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" 
+    name="simulation.systeme.evenement.executeur.ExecuteurEvenementsIndividu.EvenementElimination" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/evenement/executeur/ExecuteurEvenementsIndividu.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2024" y="615"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="simulation.systeme.lecture.LecteurConfigurationSysteme" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/lecture/LecteurConfigurationSysteme.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1121" y="49"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="simulation.systeme.strategie.modele.StrategieSelection" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/strategie/modele/StrategieSelection.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="185" x="1081" y="595"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="simulation.systeme.temps.Delais" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/temps/Delais.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="855" y="237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="simulation.ihm.portee.PorteeSysteme" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/ihm/portee/PorteeSysteme.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="59" width="134" x="606" y="306"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="simulation.systeme.lexique.Lemme" project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/lexique/Lemme.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="564" y="623"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <enumeration id="32" language="java" name="simulation.systeme.strategie.enumeration.ImplementationStrategieSelection" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/strategie/enumeration/ImplementationStrategieSelection.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1189" y="482"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="33" language="java" name="simulation.systeme.strategie.enumeration.ImplentationStrategieSuccession" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/strategie/enumeration/ImplentationStrategieSuccession.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1411" y="481"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="34" language="java" name="simulation.systeme.evenement.enumeration.IssueEvenement" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/evenement/enumeration/IssueEvenement.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="191" y="337"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="35" language="java" name="simulation.systeme.evenement.enumeration.TypeEvenement" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/evenement/enumeration/TypeEvenement.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="188" y="397"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="36" language="java" name="simulation.systeme.enumeration.TypeCritereArret" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/enumeration/TypeCritereArret.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1398" y="148"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="37" language="java" name="simulation.systeme.condition.enumeration.ImplementationCondition" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/condition/enumeration/ImplementationCondition.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="980" y="482"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </enumeration>  
+  <class id="38" language="java" name="simulation.systeme.strategie.implementation.ImplStrategieSelectionLemmeAleatoire" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/strategie/implementation/ImplStrategieSelectionLemmeAleatoire.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1196" y="768"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="simulation.systeme.strategie.implementation.ImplStrategieSelectionLemmeMoinsEmis" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/strategie/implementation/ImplStrategieSelectionLemmeMoinsEmis.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1193" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="simulation.systeme.strategie.implementation.ImplStrategieSuccessionPremierVoisin" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/strategie/implementation/ImplStrategieSuccessionPremierVoisin.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1467" y="731"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" 
+    name="simulation.systeme.strategie.implementation.ImplStrategieSuccessionVoisinAleatoire" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/strategie/implementation/ImplStrategieSuccessionVoisinAleatoire.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1469" y="795"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="simulation.systeme.strategie.implementation.ImplStrategieSelectionPremierLemme" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/strategie/implementation/ImplStrategieSelectionPremierLemme.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1195" y="709"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="simulation.systeme.condition.implementation.ImplConditionJamaisSatisfaite" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/condition/implementation/ImplConditionJamaisSatisfaite.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="939" y="712"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="simulation.systeme.condition.implementation.ImplConditionToujoursSatisfaite" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/condition/implementation/ImplConditionToujoursSatisfaite.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="938" y="771"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="simulation.systeme.condition.implementation.ImplConditionProbabiliteUniforme" 
+    project="Naissance_dun_langage" 
+    file="/Naissance_dun_langage/src/simulation/systeme/condition/implementation/ImplConditionProbabiliteUniforme.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="938" y="829"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <association id="46">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="47" name="executeurEvenements">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="48" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="50" name="date">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="51" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="52">    
+    <bendpoint x="567" y="577"/>    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="53" name="initiateur">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="54" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <nesting id="55">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="26"/>  
+  </nesting>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="57">    
+    <bendpoint x="720" y="233"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="58" name="datesRepere">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="59" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="60">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <nesting id="61">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <association id="62">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="63" name="lemme">        
+        <position height="0" width="0" x="6" y="-53"/>      
+      </attribute>      
+      <multiplicity id="64" minimum="0" maximum="1">        
+        <position height="0" width="0" x="6" y="-53"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <nesting id="65">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="13"/>  
+  </nesting>  
+  <association id="66">    
+    <bendpoint x="1270" y="178"/>    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="67" name="configurationSysteme">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="68" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="69">    
+    <bendpoint x="483" y="52"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="70" name="lecteurConfigSysteme">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="71" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <nesting id="72">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <association id="73">    
+    <bendpoint x="1191" y="558"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="74" name="implStrategieSelectionElimination">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="75" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="76">    
+    <bendpoint x="766" y="731"/>    
+    <bendpoint x="373" y="740"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="77" name="tableOccurrencesLemmes">        
+        <position height="0" width="0" x="0" y="10"/>      
+      </attribute>      
+      <multiplicity id="78" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="10"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="79">    
+    <bendpoint x="1120" y="423"/>    
+    <bendpoint x="1185" y="428"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="80" name="implStrategieSelectionEliminationParDefaut">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="81" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="82">    
+    <bendpoint x="817" y="743"/>    
+    <bendpoint x="816" y="669"/>    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="83">    
+    <bendpoint x="975" y="555"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="84" name="implConditionReception">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="85" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="86">    
+    <bendpoint x="868" y="425"/>    
+    <bendpoint x="1008" y="375"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="87" name="executeurEvenements">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="88" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="89">    
+    <bendpoint x="1331" y="820"/>    
+    <bendpoint x="1326" y="675"/>    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <association id="90">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="91" name="delais">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="92" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="93">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <generalization id="94">    
+    <bendpoint x="971" y="688"/>    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="95">    
+    <bendpoint x="945" y="258"/>    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="96" name="horloge">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="97" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="98">    
+    <bendpoint x="940" y="578"/>    
+    <bendpoint x="1412" y="563"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="99" name="implStrategieSuccession">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="100" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="101">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="102">    
+    <bendpoint x="360" y="336"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="103" name="issueEvenement">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="104" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="105">    
+    <bendpoint x="675" y="495"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="106" name="individu">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="107" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="108">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="109" name="configSysteme">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="110" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="111">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="112" name="voisins">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="113" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="114">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="115" name="type">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="116" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="117">    
+    <bendpoint x="1061" y="755"/>    
+    <bendpoint x="1059" y="679"/>    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <generalization id="118">    
+    <bendpoint x="1616" y="785"/>    
+    <bendpoint x="1612" y="693"/>    
+    <bendpoint x="1458" y="695"/>    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="119">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="120" name="echeancier">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="121" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="122">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="123">    
+    <bendpoint x="377" y="521"/>    
+    <bendpoint x="765" y="511"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="124" name="date">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="125" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <nesting id="126">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <generalization id="127">    
+    <bendpoint x="1393" y="704"/>    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="128">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="129" name="issueEvenementOccurrences">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="130" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="131">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="132">    
+    <bendpoint x="327" y="310"/>    
+    <bendpoint x="322" y="396"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="133" name="typeEvenementOccurrences">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="134" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="135">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="136" name="critereArret">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="137" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="138">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="139" name="portee">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="140" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="141">    
+    <bendpoint x="1056" y="826"/>    
+    <bendpoint x="1046" y="718"/>    
+    <bendpoint x="1043" y="674"/>    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="142">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="143" name="controleur">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="144" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="145">    
+    <bendpoint x="383" y="557"/>    
+    <bendpoint x="664" y="558"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="146" name="individu">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="147" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="148">    
+    <bendpoint x="1137" y="166"/>    
+    <bendpoint x="1142" y="407"/>    
+    <bendpoint x="1410" y="421"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="149" name="implStrategieSuccessionParDefaut">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="150" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="151">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="152">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="153">    
+    <bendpoint x="1103" y="176"/>    
+    <bendpoint x="1101" y="423"/>    
+    <bendpoint x="980" y="426"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="154" name="implConditionEmissionParDefaut">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="155" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="156">    
+    <bendpoint x="735" y="691"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="157" name="lexique">        
+        <position height="0" width="0" x="188" y="78"/>      
+      </attribute>      
+      <multiplicity id="158" minimum="0" maximum="1">        
+        <position height="0" width="0" x="188" y="78"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="159">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <nesting id="160">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="24"/>  
+  </nesting>  
+  <association id="161">    
+    <bendpoint x="188" y="542"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="162" name="typeEvenement">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="163" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>
