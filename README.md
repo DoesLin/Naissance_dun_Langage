@@ -10,4 +10,4 @@ rapport/ contient le rapport LaTeX au format .pdf et quelques images
 workspace/ contient le projet Eclipse, avec la documentation générée et
 les librairies requises
 
-Auteurs : MECHERIKI Charles et YONGDA Lin
+Auteurs : MECHERIKI Charles et Yongda LIN
